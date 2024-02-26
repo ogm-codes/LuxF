@@ -1,5 +1,5 @@
-#luxF: Modern Furniture E-commerce Platform
-luxF is an e-commerce platform designed to cater to the unique needs of young adults seeking stylish and affordable furniture. This project aims to bridge the gap between traditional furniture shopping and the preferences of the younger generation by offering:
+
+LuxF is an e-commerce platform designed to cater to the unique needs of young adults seeking stylish and affordable furniture. This project aims to bridge the gap between traditional furniture shopping and the preferences of the younger generation by offering:
 
 Extensive product selection: Featuring a wide variety of trendy and functional furniture pieces.
 Convenient and flexible delivery options: Tailored to the needs of young adults.
