@@ -15,9 +15,7 @@
     --black: hsl(0, 0%, 0%);
     --white: hsl(0, 0%, 100%); 
 
-     /**
-   * typography
-   */
+     /** typography */
 
   --ff-roboto: 'Roboto', sans-serif;
   --ff-mr_de_haviland: 'Mr De Haviland', cursive;
@@ -33,15 +31,12 @@
   --fw-500: 500;
 
   /** spacing */
-
   --section-padding: 50px;
 
   /** shadow */
-
   --shadow: 0 0 2px hsla(0, 0%, 0%, 0.2);
 
   /** transition*/
-
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease;
   --cubic-in: cubic-bezier(0.51, 0.03, 0.64, 0.28);
@@ -294,7 +289,7 @@ body.active { overflow: hidden; }
   transform: translate(-50%, -50%);
   opacity: 1;
 }
-
+/** inner buttons */
 .product-card .card-action-btn {
   background-color: var(--white);
   font-size: 22px;
@@ -361,7 +356,7 @@ body.active { overflow: hidden; }
 
 .product-list[data-filter="all"] > *,
 .product-list[data-filter="accessory"] > .accessory,
-.product-list[data-filter="decoration"] > .decoration,
+.product-list[data-filter="kitchen"] > .decoration,
 .product-list[data-filter="furniture"] > .furniture {
   display: block;
   animation: fadeUp 1s ease forwards;
