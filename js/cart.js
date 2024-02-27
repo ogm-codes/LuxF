@@ -33,15 +33,21 @@ function handleProductCardButtonClick(event) {
 
   // Check which button was clicked based on the icon name
   switch (clickedButton.querySelector('ion-icon').name) {
-    case 'add-outline':
+    case 'bag-handle-outline':
       // Add to cart functionality
       console.log("Add to cart button clicked for product in", productCard);
-      // Implement your logic for adding to cart, e.g., sending data to server or updating UI
+      
       break;
     case 'heart-outline':
-      // Add to wishlist functionality
       console.log("Add to wishlist button clicked for product in", productCard);
-      // Implement your logic for adding to wishlist
+
+      const badgeElement = productCard.querySelector('.btn-badge');
+      const currentCount = parseInt(badgeElement.textContent, 10) || 0; // Get current value or default to 0
+      const newCount = currentCount + 1; // Update count
+
+      // Update badge text and potentially 
+      badgeElement.textContent = newCount;
+      
       break;
     default:
       // Handle unexpected button click

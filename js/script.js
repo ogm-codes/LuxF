@@ -1,8 +1,6 @@
 'use strict';
 
-/**
- * add event on element
- */
+/** add event on element */
 
 const addEventOnElem = function (elem, type, callback) {
   if (elem.length > 1) {
@@ -15,9 +13,7 @@ const addEventOnElem = function (elem, type, callback) {
 }
 
 
-/**
- * navbar toggle
- */
+/** navbar toggle */
 
 const navbar = document.querySelector("[data-navbar]");
 const navbarLinks = document.querySelectorAll("[data-nav-link]");
@@ -42,9 +38,7 @@ addEventOnElem(navbarLinks, "click", closeNavbar);
 
 
 
-/**
- * header & back top btn active when window scroll down to 100px
- */
+/** header & back top btn active when window scroll down to 100px */
 
 const header = document.querySelector("[data-header]");
 const backTopBtn = document.querySelector("[data-back-top-btn]");
@@ -61,9 +55,7 @@ const showElemOnScroll = function () {
 
 addEventOnElem(window, "scroll", showElemOnScroll);
 
-/**
- * product filter
- */
+/** product filter */
 
 const filterBtns = document.querySelectorAll("[data-filter-btn]");
 const filterBox = document.querySelector("[data-filter]");
