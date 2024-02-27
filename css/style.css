@@ -172,6 +172,8 @@ body.active { overflow: hidden; }
   content: "";
   position: absolute;
 }
+/** Pop-up login/register form */
+
 
 /** Header styling */
 
