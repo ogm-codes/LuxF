@@ -10,11 +10,78 @@
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
     </head>
 
     <body id="top">
+
+        
+        <!--Login form-->
+        <div class="form_container">
+          <i class="uil uil-times form_close"></i>
+
+          <div class="form login_form">
+            <form action="" method="post">
+              <h2>Login</h2>
+              <div class="input_box">
+                <input type="email" placeholder="Enter your email"/>
+                <i class="uil uil-envelope-alt"></i>
+              </div>
+              <div class="input_box">
+                <input type="password" placeholder="Enter your password"/>
+                <i class="uil uil-lock password"></i>
+                <i class="uil uil-eye-slash pw_hide"></i>
+              </div>
+
+              <div class="option_field">
+                <span class="checkbox">
+                  <input type="checkbox" id="check"/>
+                  <label for="check">Remember me</label>
+                </span>
+                <a href="#" class="forgot_pw">Forgot password?</a>
+              </div>
+
+              <button class="button">Login</button>
+
+              <div class="login_signup">
+                Don't have an account? <a href="#" id="signup">Sign up</a>
+              </div>
+               
+            </form>
+          </div>
+          <!--Sign up-->
+          <div class="form signup_form">
+            <form action="" method="post">
+              <h2>Sign Up</h2>
+              <div class="input_box">
+                <input type="email" placeholder="Enter your email"/>
+                <i class="uil uil-envelope-alt"></i>
+              </div>
+              <div class="input_box">
+                <input type="password" placeholder="Create password"/>
+                <i class="uil uil-lock password"></i>
+                <i class="uil uil-eye-slash pw_hide"></i>
+              </div>
+
+              <div class="input_box">
+                <input type="password" placeholder="Confirm password"/>
+                <i class="uil uil-lock password"></i>
+                <i class="uil uil-eye-slash pw_hide"></i>
+              </div>
+
+              <button class="button">Sign Up</button>
+
+              <div class="login_signup">
+                Already have an account? <a href="#" id="signup">Log in</a>
+              </div>
+               
+            </form>
+          </div>
+
+        </div>
+      
         <!--Header-->
         <header class="header">
             <div class="container">
@@ -29,29 +96,21 @@
           
                 <div class="header-action">
           
-                  <button class="header-action-btn" aria-label="user">
+                  <button class="user-action-btn" aria-label="user">
                     <ion-icon name="person-outline" aria-hidden="true" role="img" class="md hydrated"></ion-icon>
                   </button>
-
-                  <!--Login form(pop-up)-->
-                <div>
-                  <form action="" method="post">
-                    
-                  </form>
-                  
-                </div>
           
-                  <button class="header-action-btn" aria-label="favorite list">
+                  <button class="favourite-action-btn" aria-label="favorite list">
                     <ion-icon name="heart-outline" aria-hidden="true" role="img" class="md hydrated"></ion-icon>
                     <span class="btn-badge">0</span>
                   </button>
           
-                  <button class="header-action-btn" aria-label="cart">
+                  <button class="cart-action-btn" aria-label="cart">
                     <ion-icon name="bag-handle-outline" aria-hidden="true" role="img" class="md hydrated"></ion-icon>
                     <span class="btn-badge">1</span>
                   </button>
           
-                  <button class="header-action-btn" aria-label="open menu" data-nav-toggler="">
+                  <button class="menu-action-btn" aria-label="open menu" data-nav-toggler="">
                     <ion-icon name="menu-outline" aria-hidden="true" role="img" class="md hydrated"></ion-icon>
                   </button>
           
@@ -927,6 +986,7 @@
 
 
     <script src="/js/script.js" async></script>
+    <script src="/js/login.js" async></script>
     <script src="/js/cart.js" ></script>  
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>

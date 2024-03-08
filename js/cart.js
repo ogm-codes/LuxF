@@ -1,8 +1,8 @@
 /** Shopping cart modal */
 
 // references to the buttons in header
-const favoriteButton = document.querySelector('.header-action-btn[aria-label="favorite list"]');
-const cartButton = document.querySelector('.header-action-btn[aria-label="cart"]');
+const favoriteButton = document.querySelector('.favourite-action-btn[aria-label="favorite list"]');
+const cartButton = document.querySelector('.cart-action-btn[aria-label="cart"]');
 
 function handleFavoriteClick() {
   // Add your desired functionality here, 
