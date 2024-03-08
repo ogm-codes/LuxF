@@ -334,7 +334,7 @@ body.active { overflow: hidden; }
   color: var(--tan-crayola); 
 }
 
-.favourite-action-btn .btn-badge {
+.favourite-action-btn .fav-btn-badge {
   background-color: var(--tan-crayola);
   color: var(--white);
   font-size: var(--fs-6);
@@ -346,7 +346,7 @@ body.active { overflow: hidden; }
   border-radius: 50%;
 }
 
-.cart-action-btn .btn-badge {
+.cart-action-btn .cart-btn-badge {
   background-color: var(--tan-crayola);
   color: var(--white);
   font-size: var(--fs-6);
