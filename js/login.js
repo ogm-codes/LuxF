@@ -6,6 +6,7 @@ const userLogin = document.querySelector('.button');
 //user icon 
 function userLoginClick() {
     console.log("user btn clicked");
+    
 }
 
 function closeForm() {
