@@ -21,7 +21,14 @@ favoriteButton.addEventListener('click', handleFavoriteClick);
 cartButton.addEventListener('click', handleCartClick);
 
 function handleProductCard() {
+  //const productName = document.querySelector('.card-title');
+ // const productPrice = document.querySelector('.price');
+
+
   console.log("product clicked");
+  //console.log(productName);
+ // console.log(productPrice);
+
 }
 
 function cartFavourite() {
@@ -49,5 +56,5 @@ innerFavbtn.addEventListener('click',cartFavourite);
 innerCartbtn.addEventListener('click', cartOrder);
 
 productCard.forEach(card => {
-  card.addEventListener('', handleProductCard);
+  card.addEventListener('click', handleProductCard);
 });
