@@ -8,6 +8,7 @@ const innerFavbtn = document.querySelector('.inner-fav-action-btn[aria-label="ad
 const innerCartbtn = document.querySelector('.inner-cart-action-btn[aria-label="add to cart"]');
 //Main product
 const productCard = document.querySelectorAll('.product-card');
+const productCardCartSelection = querySelector('.product-card');
 
 function handleFavoriteClick() {
   console.log("Favorite button clicked!");
@@ -52,8 +53,11 @@ function cartOrder() {
   console.log("cart product");
 }
 
+function showCartOrders() {}
+
 innerFavbtn.addEventListener('click',cartFavourite);
 innerCartbtn.addEventListener('click', cartOrder);
+productCardCartSelection.addEventListener('',showCartOrders);
 
 productCard.forEach(card => {
   card.addEventListener('click', handleProductCard);
