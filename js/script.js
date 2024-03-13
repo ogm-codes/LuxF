@@ -12,10 +12,24 @@ const addEventOnElem = function (elem, type, callback) {
   }
 }
 
-/**
- * navbar toggle
- */
+/** product filter */
 
+const filterBtns = document.querySelectorAll("[data-filter-btn]");
+const filterBox = document.querySelector("[data-filter]");
+
+let lastClickedFilterBtn = filterBtns[0];
+
+const filter = function () {
+  lastClickedFilterBtn.classList.remove("active");
+  this.classList.add("active");
+  lastClickedFilterBtn = this;
+
+  filterBox.setAttribute("data-filter", this.dataset.filterBtn)
+}
+
+addEventOnElem(filterBtns, "click", filter);
+
+/** navbar toggle*/
  const navbar = document.querySelector("[data-navbar]");
  const navbarLinks = document.querySelectorAll("[data-nav-link]");
  const navTogglers = document.querySelectorAll("[data-nav-toggler]");
@@ -37,19 +51,3 @@ const addEventOnElem = function (elem, type, callback) {
  
  addEventOnElem(navbarLinks, "click", closeNavbar);
 
-/** product filter */
-
-const filterBtns = document.querySelectorAll("[data-filter-btn]");
-const filterBox = document.querySelector("[data-filter]");
-
-let lastClickedFilterBtn = filterBtns[0];
-
-const filter = function () {
-  lastClickedFilterBtn.classList.remove("active");
-  this.classList.add("active");
-  lastClickedFilterBtn = this;
-
-  filterBox.setAttribute("data-filter", this.dataset.filterBtn)
-}
-
-addEventOnElem(filterBtns, "click", filter);
