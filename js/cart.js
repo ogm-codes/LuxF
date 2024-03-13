@@ -53,7 +53,9 @@ function cartOrder() {
   console.log("cart product");
 }
 
-function showCartOrders() {}
+function showCartOrders() {
+  //Display cart with orders and confirm orders
+}
 
 innerFavbtn.addEventListener('click',cartFavourite);
 innerCartbtn.addEventListener('click', cartOrder);

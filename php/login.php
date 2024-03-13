@@ -1,2 +1,5 @@
 <?php
+
+require('dbconnect.php');
+
 ?>
