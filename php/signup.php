@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD']) {
     } else if ($password !== $confirmedpassword) {
         $errormsg = "passwords do no match";
     } else {
-        
+        $sqlStaement = "INSERT INTO users(first_name, surname, email, password) VALUES (?, ?, ?, ?)";
     }
 }
 ?>
