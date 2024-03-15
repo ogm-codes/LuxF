@@ -9,7 +9,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $sql = "SELECT id, password FROM users WHERE email = ?";
     $statement = $conn->prepare($sql);
-
     $statement->execute();
 
     $result = $stmt->get_result(); // Get the result
