@@ -267,7 +267,8 @@ body.active { overflow: hidden; }
   color: var(--black);
 }
 
-.form_container .button {
+.form_container .loginbutton, 
+.form_container .signupbutton{
   background: var(--black_25);
   margin-top: 10px;
   width: 100%;
