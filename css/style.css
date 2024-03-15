@@ -569,7 +569,7 @@ body.active { overflow: hidden; }
 
 .product-list[data-filter="all"] > *,
 .product-list[data-filter="accessory"] > .accessory,
-.product-list[data-filter="kitchen"] > .decoration,
+.product-list[data-filter="kitchen"] > .kitchen,
 .product-list[data-filter="furniture"] > .furniture {
   display: block;
   animation: fadeUp 1s ease forwards;
