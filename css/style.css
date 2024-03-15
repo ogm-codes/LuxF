@@ -175,7 +175,7 @@ body.active { overflow: hidden; }
 
 /** Pop-up login/register form */
 .form_container {
-  display: none;
+  /*display: none;*/
   position: absolute;
   top: 50%;
   left: 50%;
@@ -249,7 +249,7 @@ body.active { overflow: hidden; }
 }
 
 .form_container a {
-  color: bisque;
+  color: var(--tan-crayola);
   font-size: 12px;
 }
 
@@ -287,12 +287,13 @@ body.active { overflow: hidden; }
 .header .input-wrapper { display: none; }
 
 .header {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   background-color: var(--white);
   padding-block: 15px;
+  /*box-shadow: var(--shadow);*/
   z-index: 4;
 }
 
