@@ -12,6 +12,7 @@ function userLoginClick() {
 }
 
 function closeForm() {
+//Fix
     console.log("close form");
 }
 
