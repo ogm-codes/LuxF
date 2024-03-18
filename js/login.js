@@ -14,6 +14,7 @@ function userLoginClick() {
 function closeForm() {
 //Fix
     console.log("close form");
+    formContainer.style.display = 'none';
 }
 
 openLogin.addEventListener('click', userLoginClick);
