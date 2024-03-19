@@ -29,6 +29,8 @@ function signupnewuser() {
 
 function loginExistingUser() {
     console.log("login link clicked");
+    loginForm.style.display = 'block';
+    signupForm.style.display = 'none';
 }
 
 openLogin.addEventListener('click', userLoginClick);
