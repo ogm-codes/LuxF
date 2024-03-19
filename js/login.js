@@ -4,6 +4,8 @@ const closeLogin = document.querySelector('.form_close');
 const signuplink = document.querySelector('#signup');
 const userLogin = document.querySelector('.loginbutton');
 const userSignup = document.querySelector('.signupbutton');
+const loginForm = document.querySelector('.login_form');
+const signupForm = document.querySelector();
 
 
 //user icon 
@@ -19,5 +21,11 @@ function closeForm() {
     formContainer.style.display = 'none';
 }
 
+function signupnewuser() {
+    console.log("sign up a new user");
+
+}
+
 openLogin.addEventListener('click', userLoginClick);
 closeLogin.addEventListener('click', closeForm);
+signuplink.addEventListener('click', signupnewuser);

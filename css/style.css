@@ -175,7 +175,7 @@ body.active { overflow: hidden; }
 
 /** Pop-up login/register form */
 .form_container {
-  /*display: none;*/
+  display: none;
   position: absolute;
   top: 50%;
   left: 50%;
