@@ -1,7 +1,9 @@
 const openLogin = document.querySelector('.user-action-btn[aria-label="user"');
 const formContainer = document.querySelector('.form_container');
 const closeLogin = document.querySelector('.form_close');
-const userLogin = document.querySelector('.button');
+const signuplink = document.querySelector('#signup');
+const userLogin = document.querySelector('.loginbutton');
+const userSignup = document.querySelector('.signupbutton');
 
 
 //user icon 
