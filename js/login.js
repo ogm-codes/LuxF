@@ -13,7 +13,7 @@ const signupForm = document.querySelector('signup_form');
 function userLoginClick() {
     console.log("user btn clicked");
     formContainer.style.display = formContainer.style.display === 'none' ? 'block' : 'none';
-    
+    signupForm.style.display = 'none';    
 }
 
 function closeForm() {
