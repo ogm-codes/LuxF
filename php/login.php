@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       // Login successful! (e.g., create a session, redirect to protected page)
       session_start(); // Start session (optional)
       $_SESSION['user_id'] = $row['id']; // Store user ID in session (optional)
-      header("Location: protected_page.php"); // Redirect to protected page
+      header("Location: index.html"); // Redirect to protected page
     } else {
       $error_message = "Invalid email or password.";
     }
