@@ -172,6 +172,7 @@ body.active { overflow: hidden; }
   content: "";
   position: absolute;
 }
+/** Dynamic product for cart **/
 
 /** Pop-up login/register form */
 .form_container {
