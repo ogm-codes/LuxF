@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = $_POST['email'];
     $password = $_POST['user_password'];
 
-    $sql = "SELECT id, password FROM users WHERE email = ?";
+    $sql = "SELECT user_password FROM users WHERE email = ?";
     $statement = $conn->prepare($sql);
     $statement->execute();
 
