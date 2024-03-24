@@ -189,6 +189,9 @@ body.active { overflow: hidden; }
 }
 
 /*sign up form*/
+.signup_form {
+  display: none;
+}
 
 .form_close {
   position: absolute;
