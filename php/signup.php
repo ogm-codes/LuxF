@@ -4,6 +4,8 @@ require('dbconnect.php');
 
 if ($_SERVER['REQUEST_METHOD']) {
     //GET User input
+    print_r($_POST);
+
     $first_name = $_POST['first_name'];
     $surname = $_POST['last_name'];
     $email = $_POST['email'];

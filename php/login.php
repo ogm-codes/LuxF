@@ -1,6 +1,7 @@
 <?php
 
 require('dbconnect.php');
+print_r($_POST);
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
