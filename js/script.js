@@ -11,7 +11,7 @@ const addEventOnElem = function (elem, type, callback) {
     elem.addEventListener(type, callback);
   }
 }
-
+/** works perfectly */
 /** product filter */
 
 const filterBtns = document.querySelectorAll("[data-filter-btn]");
