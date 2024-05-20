@@ -173,7 +173,39 @@ body.active { overflow: hidden; }
   position: absolute;
 }
 /** Dynamic product for cart **/
+.cart-orders {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  box-shadow:  0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+}
 
+.cart-orders img{
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.order-details {
+  flex-grow: 1;
+}
+
+.order-description {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.order-price {
+  margin-bottom: 0.5rem;
+  color: aquamarine;
+}
+
+.remove-order {
+  display: inline-flex;
+  align-items: center;
+}
 /** Pop-up login/register form */
 .form_container {
   display: none;
