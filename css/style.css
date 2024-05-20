@@ -402,7 +402,10 @@ body.active { overflow: hidden; }
   font-weight: var(--fw-500);
 }
 
-.sidebar-list-title { margin-block-end: 15px; }
+.sidebar-list-title { 
+  margin-block-end: 15px;
+  font-size: var(--fs-2); 
+}
 
 .sidebar-link {
   color: var(--spanish-gray);
