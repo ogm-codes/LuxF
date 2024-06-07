@@ -7,7 +7,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $email = $_POST['email'];
     $password = $_POST['user_password'];
-
     $sql = "SELECT user_password FROM users WHERE email = ?";
     $statement = $conn->prepare($sql);
     $statement->execute();
@@ -19,8 +18,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Verify password (assuming password is hashed)
     if (password_verify($password, $row['password'])) {
-      // Login successful! (e.g., create a session, redirect to protected page)
-      session_start(); // Start session (optional)
+      // Login successful! ( redirect to protected page)
+      session_start(); // 
       $_SESSION['user_id'] = $row['id']; // Store user ID in session (optional)
       header("Location: index.html"); // Redirect to protected page
     } else {
@@ -33,7 +32,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   // Close the statement and connection
   $stmt->close();
   $conn->close();
-
 }
 
 ?>

@@ -44,10 +44,6 @@
 
 }
 
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
-
 *,
 *::before,
 *::after {
@@ -481,8 +477,7 @@ body.active { overflow: hidden; }
   pointer-events: all;
 }
 
-/** Product styling */
-
+/** Product styling for each individual product being sold */
 .product .section-title { text-align: center; }
 
 .filter-btn-list {
