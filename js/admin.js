@@ -24,6 +24,32 @@ menuBar.addEventListener('click', function () {
 
 
 
+const openModalButton = document.getElementById('open-modal');
+const modal = document.getElementById('product-modal');
+const closeButton = document.querySelector('.close-modal');
+
+// Function to show the modal
+function openProductModal() {
+  modal.style.display = "block";
+}
+
+// Function to hide the modal
+function closeProductModal() {
+  modal.style.display = "none";
+}
+
+// Open modal when the button is clicked
+openModalButton.addEventListener('click', openProductModal);
+
+// Close modal when the close button is clicked
+closeButton.addEventListener('click', closeProductModal);
+
+//**Optional: Close modal by clicking outside**
+ window.addEventListener('click', function(event) {
+	   if (event.target == modal) {
+    closeProductModal();
+   }
+ });
 
 
 

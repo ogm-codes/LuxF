@@ -173,7 +173,7 @@
 				</div>
 				<div class="todo">
 					<div class="head">
-						<h3>To do</h3>
+						<h3>Management</h3>
 						<i class='bx bx-plus' ></i>
 						<i class='bx bx-filter' ></i>
 					</div>
@@ -189,6 +189,20 @@
 						<li class="not-completed">
 							<p>Remove product</p>
 							<i class='bx bx-dots-vertical-rounded' ></i>
+
+							<div id="product-modal" class="modal">
+								<h2>Add Product</h2>
+								<form>
+								  <label for="image-upload">Image:</label>
+								  <input type="file" id="image-upload" accept="image/*">
+								  <label for="description">Description:</label>
+								  <textarea id="description" rows="5"></textarea>
+								  <label for="price">Price:</label>
+								  <input type="number" id="price">
+								  <button type="submit">Submit</button>
+								</form>
+								<button class="close-modal">Close</button>
+							  </div>
 						</li>
 					</ul>
 				</div>
