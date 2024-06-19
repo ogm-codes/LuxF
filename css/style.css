@@ -173,6 +173,7 @@ body.active { overflow: hidden; }
   display: flex;
   flex-direction: row;
   gap: 1rem;
+  width: 300px;
   margin-bottom: 1rem;
   box-shadow:  0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
 }
@@ -201,6 +202,12 @@ body.active { overflow: hidden; }
 .remove-order {
   display: inline-flex;
   align-items: center;
+}
+
+.cart-checkoutbtn {
+  height: 30px;
+  align-items: center;
+  color: var(--black_70);
 }
 /** Pop-up login/register form */
 .form_container {
