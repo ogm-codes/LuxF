@@ -205,9 +205,11 @@ body.active { overflow: hidden; }
 }
 
 .cart-checkoutbtn {
-  height: 30px;
-  align-items: center;
-  color: var(--black_70);
+  color: #aaaaaa;
+	float: center;
+	font-size: 28px;
+	font-weight: bold;
+	cursor: pointer;
 }
 /** Pop-up login/register form */
 .form_container {

@@ -24,7 +24,7 @@ menuBar.addEventListener('click', function () {
 
 
 
-const openModalButton = document.getElementById('open-modal');
+const openModalButton = document.getElementById('bx bx-dots-vertical-rounded');
 const modal = document.getElementById('product-modal');
 const closeButton = document.querySelector('.close-modal');
 

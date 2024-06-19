@@ -22,13 +22,9 @@ favoriteButton.addEventListener('click', handleFavoriteClick);
 cartButton.addEventListener('click', handleCartClick);
 
 function handleProductCard() {
-  //const productName = document.querySelector('.card-title');
- // const productPrice = document.querySelector('.price');
 
 
   console.log("product clicked");
-  //console.log(productName);
- // console.log(productPrice);
 
 }
 
