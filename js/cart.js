@@ -60,5 +60,7 @@ function updateCartDisplay() {
   });
 }
 
+updateCartDisplay();
+
 const secureCheckout = document.querySelector('.cart-checkoutbtn');
 
