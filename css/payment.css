@@ -802,19 +802,19 @@ label.checkbox {
 /*-- responsive media queries --*/
 @media (max-width: 1440px) {
     li.resp-tab-item span .pic3 {
-        background: url(../images/pic3.png) no-repeat 8px 15px #fafafa !important;
+        background: url(../img/pic3.png) no-repeat 8px 15px #fafafa !important;
     }
 
     li.resp-tab-item span .pic1 {
-        background: url(../images/pic1.png) no-repeat 29px 15px #fafafa !important;
+        background: url(../img/pic1.png) no-repeat 29px 15px #fafafa !important;
     }
 
     li.resp-tab-item span .pic4 {
-        background: url(../images/pic4.png) no-repeat 31px 15px #fafafa !important;
+        background: url(../img/pic4.png) no-repeat 31px 15px #fafafa !important;
     }
 
     li.resp-tab-item span .pic2 {
-        background: url(../images/pic2.png) no-repeat 29px 15px #fafafa !important;
+        background: url(../img/pic2.png) no-repeat 29px 15px #fafafa !important;
     }
 }
 
@@ -1107,19 +1107,19 @@ label.checkbox {
     }
 
     li.resp-tab-item span .pic3 {
-        background: url(../images/pic3.png) no-repeat 8px 15px #fafafa !important;
+        background: url(../img/pic3.png) no-repeat 8px 15px #fafafa !important;
     }
 
     li.resp-tab-item span .pic1 {
-        background: url(../images/pic1.png) no-repeat 29px 15px #fafafa !important;
+        background: url(../img/pic1.png) no-repeat 29px 15px #fafafa !important;
     }
 
     li.resp-tab-item span .pic4 {
-        background: url(../images/pic4.png) no-repeat 31px 15px #fafafa !important;
+        background: url(../img/pic4.png) no-repeat 31px 15px #fafafa !important;
     }
 
     li.resp-tab-item span .pic2 {
-        background: url(../images/pic2.png) no-repeat 29px 15px #fafafa !important;
+        background: url(../img/pic2.png) no-repeat 29px 15px #fafafa !important;
     }
 
     .swit {
