@@ -12,8 +12,6 @@ allSideMenu.forEach(item=> {
 });
 
 
-
-
 // TOGGLE SIDEBAR
 const menuBar = document.querySelector('#content nav .bx.bx-menu');
 const sidebar = document.getElementById('sidebar');
@@ -22,9 +20,9 @@ menuBar.addEventListener('click', function () {
 	sidebar.classList.toggle('hide');
 })
 
+//Modal
 
-
-const openModalButton = document.getElementById('bx bx-dots-vertical-rounded');
+const openModalButton = document.querySelector('.bx bx-dots-vertical-rounded');
 const modal = document.getElementById('product-modal');
 const closeButton = document.querySelector('.close-modal');
 

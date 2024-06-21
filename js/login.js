@@ -23,7 +23,7 @@ function closeForm() {
 
 function signupnewuser() {
     console.log("sign up a new user");
-    loginForm.style.display = 'none';
+    loginForm.style.display === 'none' ? 'block' : 'none' ;
     signupForm.style.display = 'block';
 }
 
