@@ -28,10 +28,9 @@ let cart = [];
 
 const addToCartButtons = document.querySelectorAll(".inner-cart-action-btn");
 
-addToCartButtons.forEach(button => {
+addToCartButtons.forEach((button, index) => {
   button.addEventListener("click", function() {
-    const productId = this.closest(".product-card").dataset.productId; // Assuming you have a data-productId attribute on the product card
-    const product = products.find(p => p.id === parseInt(productId)); // Find product object by ID
+    const product = products[index]; // Find product object by ID
     cart.push(product); // Add product to cart array
     updateCartDisplay(); // Update the cart display dynamically
   });
@@ -61,6 +60,4 @@ function updateCartDisplay() {
 }
 
 updateCartDisplay();
-
-const secureCheckout = document.querySelector('.cart-checkoutbtn');
 
