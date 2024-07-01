@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Purchase Successful!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    .success-message {
+      font-size: 2em;
+      color: green;
+    }
+    .redirect-message {
+      font-size: 0.8em;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="success-message">Your purchase is complete!</h1>
+  <p class="redirect-message">You will be redirected to the homepage in 5 seconds.</p>
+  <script>
+    setTimeout(function() {
+      window.location.href = "index.html";
+    }, 5000);
+  </script>
+</body>
+</html>

@@ -18,76 +18,34 @@
     <body id="top">
    
         <!--Login form-->
-        <div class="form_container">
-          <i class="uil uil-times form_close"></i>
-
-          <div class="form login_form">
-            <form action="login.php" method="post">
-              <h2>Login</h2>
-              <div class="input_box">
-                <input type="email" placeholder="Enter your email"/>
-                <i class="uil uil-envelope-alt"></i>
-              </div>
-              <div class="input_box">
-                <input type="password" placeholder="Enter your password"/>
-                <i class="uil uil-lock password"></i>
-                <i class="uil uil-eye-slash pw_hide"></i>
-              </div>
-
-              <div class="option_field">
-                <span class="checkbox">
-                  <input type="checkbox" id="check"/>
-                  <label for="check">Remember me</label>
-                </span>
-                <a href="#" class="forgot_pw">Forgot password?</a>
-              </div>
-              <!--Handle the login php-->
-              <button type="submit" class="loginbutton">Login</button>
-
-              <div class="login_signup">
-                Don't have an account? <a href="#" id="signup">Sign up</a>
-              </div>
-               
-            </form>
-          </div>
-          <!--Sign up-->
-          <div class="form signup_form">
-            <form action="signup.php" method="post">
+        <div class="overlay">
+          <div class="modal">
+            <div class="tabs">
+              <button class="active" data-tab="login">Login</button>
+              <button data-tab="signup">Sign Up</button>
+            </div>
+            <div class="tab-content" data-tab="login">
+              <button class="s_btn continue-btn">Connect using Instagram </button>
+              <h2>Login with Email</h2>
+              <form>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button class="s_btn login-btn">Login</button>
+              </form>
+            </div>
+            <div class="tab-content" data-tab="signup">
               <h2>Sign Up</h2>
-              <div class="input_box">
-                <input type="text" placeholder="Enter your name"/>
-                <i class="uil uil-envelope-alt"></i>
-              </div>
-              <div class="input_box">
-                <input type="text" placeholder="Enter your surname"/>
-                <i class="uil uil-envelope-alt"></i>
-              </div>
-              <div class="input_box">
-                <input type="email" placeholder="Enter your email"/>
-                <i class="uil uil-envelope-alt"></i>
-              </div>
-              <div class="input_box">
-                <input type="password" placeholder="Create password"/>
-                <i class="uil uil-lock password"></i>
-                <i class="uil uil-eye-slash pw_hide"></i>
-              </div>
-
-              <div class="input_box">
-                <input type="password" placeholder="Confirm password"/>
-                <i class="uil uil-lock password"></i>
-                <i class="uil uil-eye-slash pw_hide"></i>
-              </div>
-
-              <button type="submit" class="signupbutton">Sign Up</button>
-
-              <div class="login_signup">
-                Already have an account? <a href="#" id="login">Log in</a>
-              </div>
-               
-            </form>
+              <form>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button class="signup-btn">Sign Up</button>
+              </form>
+            </div>
           </div>
-
         </div>
+
+        
       
         <!--Header-->
         <header class="header">
